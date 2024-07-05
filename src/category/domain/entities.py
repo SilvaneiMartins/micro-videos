@@ -1,4 +1,5 @@
 from datetime import datetime
+from unittest import TestCase
 
 
 class Category:
@@ -8,6 +9,3 @@ class Category:
         self.descrition = descrition
         self.is_active = is_active
         self.created_at = created_at
-
-
-print(vars(Category("Filmes", "Nome do filme", True, datetime.now())))
